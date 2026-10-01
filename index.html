@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte il riso è bianco e lo zafferano non è ancora caduto; se il codice non arriva, dopo 2,5 s la pagina va allo stato finale */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaPiatto=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,61 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&amp;family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&amp;family=Lexend+Deca:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=1" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Restaurant","name":"Osteria Naviglio Grande","alternateName":"Osteria Naviglio Grande - Tabacchi - Tavola calda - Bar","description":"Osteria con bar e tabacchi sul Naviglio Grande, a San Cristoforo: colazioni dalle 6, pausa pranzo con cucina casalinga dalle 12 alle 14, specialità lombarde e serate a tema su prenotazione.","slogan":"Specialità cucina lombarda.","url":"https://rotenzark.github.io/osteria-naviglio-grande/","image":"https://rotenzark.github.io/osteria-naviglio-grande/img/og.jpg","telephone":"+39 02 813 8367","email":"osterianavigliogrande@gmail.com","servesCuisine":["Lombarda","Italiana","Cucina casalinga"],"acceptsReservations":"True","address":{"@type":"PostalAddress","streetAddress":"Via Lodovico il Moro 139","postalCode":"20142","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4418932,"longitude":9.1324503},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"06:00","closes":"19:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"580","bestRating":"5"},"sameAs":["https://www.facebook.com/p/Osteria-Naviglio-Grande-100054424783413/"]}
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Osteria Naviglio Grande",
+  "alternateName": "Osteria Naviglio Grande - Tabacchi - Tavola calda - Bar",
+  "description": "Osteria con bar e tabacchi sul Naviglio Grande, a San Cristoforo: colazioni dalle 6, pausa pranzo con cucina casalinga dalle 12 alle 14, specialità lombarde e serate a tema su prenotazione.",
+  "slogan": "Specialità cucina lombarda.",
+  "url": "https://rotenzark.github.io/osteria-naviglio-grande/",
+  "image": "https://rotenzark.github.io/osteria-naviglio-grande/img/og.jpg",
+  "telephone": "+39 02 813 8367",
+  "email": "osterianavigliogrande@gmail.com",
+  "servesCuisine": [
+    "Lombarda",
+    "Italiana",
+    "Cucina casalinga"
+  ],
+  "acceptsReservations": "True",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Lodovico il Moro 139",
+    "postalCode": "20142",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.4418932,
+    "longitude": 9.1324503
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "06:00",
+      "closes": "19:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/p/Osteria-Naviglio-Grande-100054424783413/"
+  ]
+}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -1081,11 +1128,11 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
         <p class="onda__voto reveal"><b>4,6</b> <span data-i18n="r.voto">su Google, 580 recensioni</span></p>
         <div class="recensioni">
           <blockquote class="recensione reveal">
-            <p>«Ormai qui siamo di casa e di parte! Rimane il posto preferito del cuore in famiglia e con gli amici! Tutti mi chiedono sempre di ritornare; consiglio su cosa prendere? Se è la prima volta non rinunciate ai mitici risotti dello chef! A presto»</p>
+            <p lang="it">«Ormai qui siamo di casa e di parte! Rimane il posto preferito del cuore in famiglia e con gli amici! Tutti mi chiedono sempre di ritornare; consiglio su cosa prendere? Se è la prima volta non rinunciate ai mitici risotti dello chef! A presto»</p>
             <footer>roberta angotti · <span data-i18n="r.google">su Google</span></footer>
           </blockquote>
           <blockquote class="recensione reveal">
-            <p>«Bar, tabacchi e menu fisso a pranzo. Il locale si presenta molto pulito, ampio e soprattutto fresco. <span class="taglio">[…]</span> la scelta tra due tipi di primi, due tipi di secondi e due tipi di contorni. Bevanda inclusa. Il cibo era molto buono. Punti di forza il personale. Molto gentile e professionale.»</p>
+            <p lang="it">«Bar, tabacchi e menu fisso a pranzo. Il locale si presenta molto pulito, ampio e soprattutto fresco. <span class="taglio">[…]</span> la scelta tra due tipi di primi, due tipi di secondi e due tipi di contorni. Bevanda inclusa. Il cibo era molto buono. Punti di forza il personale. Molto gentile e professionale.»</p>
             <footer>Giuseppe Pullia · <span data-i18n="r.google">su Google</span></footer>
           </blockquote>
           <blockquote class="recensione reveal">
@@ -1097,7 +1144,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
             <footer>Jessica · <span data-i18n="r.google">su Google</span></footer>
           </blockquote>
           <blockquote class="recensione reveal">
-            <p>«Sono stato all'Osteria Naviglio Grande almeno 20 volte in meno di un anno <span class="taglio">[…]</span> Piatti ricchi, di alta qualità, più che generosi, dove nulla è lasciato al caso. <span class="taglio">[…]</span> perfetto per stare bene e sentirsi coccolati mentre si mangia bene, tanto bene, un piatto più buono dell'altro.»</p>
+            <p lang="it">«Sono stato all'Osteria Naviglio Grande almeno 20 volte in meno di un anno <span class="taglio">[…]</span> Piatti ricchi, di alta qualità, più che generosi, dove nulla è lasciato al caso. <span class="taglio">[…]</span> perfetto per stare bene e sentirsi coccolati mentre si mangia bene, tanto bene, un piatto più buono dell'altro.»</p>
             <footer>chris dl · <span data-i18n="r.google">su Google</span></footer>
           </blockquote>
         </div>
@@ -1145,7 +1192,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       </div>
       <div class="dove__vista reveal">
         <div class="mappa">
-          <iframe title="Mappa: Osteria Naviglio Grande, Via Lodovico il Moro 139, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=Osteria%20Naviglio%20Grande%2C%20Via%20Lodovico%20il%20Moro%20139%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="420" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="mappa-clic" data-mappa-clic style="--mappa-h: 420px"><template><iframe title="Mappa: Osteria Naviglio Grande, Via Lodovico il Moro 139, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=Osteria%20Naviglio%20Grande%2C%20Via%20Lodovico%20il%20Moro%20139%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="420" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Osteria+Naviglio+Grande,+Via+Lodovico+il+Moro+139,+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
         </div>
         <div class="dove__foto">
           <figure><button type="button" class="foto" data-full="img/naviglio.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/naviglio.jpg" width="1080" height="1080" alt="Il Naviglio Grande visto dal ponte: l'acqua ferma col cielo riflesso, le case sulle due sponde." data-i18n-alt="a.naviglio"></button><figcaption data-i18n="w.cap1">Il Naviglio Grande, a due passi.</figcaption></figure>
@@ -1178,7 +1225,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <footer class="piede">
   <a class="piede__marchio" href="#inizio" aria-label="Osteria Naviglio Grande, torna all'inizio" data-i18n-aria="m.top"><!--LOGO-PIEDE--><svg viewBox="0 0 465 270" fill="currentColor" aria-hidden="true" focusable="false"><use href="#logo-osteria"/></svg><!--/LOGO-PIEDE--></a>
   <p class="piede__dove">Via Lodovico il Moro 139, 20142 Milano · <a href="tel:+39028138367">02 813 8367</a> · <a href="mailto:osterianavigliogrande@gmail.com">osterianavigliogrande@gmail.com</a></p>
-  <p class="piede__cred" data-i18n="z.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · foto dalla scheda Google (del locale e dei clienti), recensioni da Google, le loro parole da Google e da Facebook (settembre 2026). Il piatto di risotto è disegnato.</p>
+  <p class="piede__cred" data-i18n="z.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · foto dalla scheda Google (del locale e dei clienti), recensioni da Google, le loro parole da Google e da Facebook (settembre 2026). Il piatto di risotto è disegnato.</p>
   <p><a class="piede__su" href="#inizio" data-i18n="z.su">Torna su ↑</a></p>
 </footer>
 
@@ -1187,5 +1234,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
